@@ -2,6 +2,10 @@ header {
   height: 60px;
   background-color: white;
 }
+#homeButton {
+  background-image: url(/imagenes/imagenlogo.png);
+  background-position: center center;
+}
 .primertitulo {
   font-weight: bold;
   font-size: 50px;
@@ -33,13 +37,23 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+#social-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#boton-page {
+  margin-right: 10px;
+}
 .home-page {
   position: relative;
   padding-top: 250px;
   padding-bottom: 250px;
   margin-bottom: 50px;
+  background-image: url(/imagenes/imagengrande.jpg);
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0, 5);
 }
-.home-page-fondo {
+/* .home-page-fondo {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -47,7 +61,7 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-}
+} */
 .fondo {
   position: relative;
 }
@@ -95,6 +109,12 @@ body {
   padding-bottom: 80px;
   padding-top: 10px;
 }
+.cuadrado {
+  border-radius: 5px;
+  box-shadow: 10px black;
+  font-size: 12px;
+  padding: 40px 10px;
+}
 .contact {
   margin-left: 50px;
   margin-right: 50px;
@@ -107,6 +127,9 @@ body {
 .icono-final {
   font-size: 30px;
   color: white;
+}
+.image-fluid {
+  width: 100%;
 }
 .fondo-negro {
   background-color: black;
@@ -122,13 +145,18 @@ body {
   padding-left: 20px;
   padding-bottom: 10px;
 }
-.linea-icono {
-  font-size: 40px;
+#iconoEducation {
   color: #48b5d9;
-  padding-right: 40px;
-  margin-left: -25px;
+  margin-right: 40px;
+  margin-left: -15px;
+  font-size: 30px;
 }
-
+#iconoExperience {
+  color: #48b5d9;
+  margin-right: 40px;
+  margin-left: -20px;
+  font-size: 30px;
+}
 .line-title {
   font-weight: bold;
 }
@@ -148,7 +176,7 @@ body {
 .white {
   background-color: white;
 }
-.gray {
+.about-contact {
   background-color: #f0f0f0;
   margin-top: 80px;
 }
